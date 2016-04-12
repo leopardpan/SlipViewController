@@ -1,16 +1,16 @@
 //
-//  SwipableViewController.h
-//  iosapp
+//  ScrollerViewController.h
+//  ScrollDemo
 //
-//  Created by chenhaoxiang on 14-10-19.
-//  Copyright (c) 2014年 oschina. All rights reserved.
+//  Created by baixinpan on 16/4/12.
+//  Copyright © 2016年 baixinpan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "TitleBarView.h"
 #import "HorizonalTableViewController.h"
 
-@interface SwipableViewController : UIViewController
+@interface ScrollerViewController : UIViewController
 
 @property (nonatomic, strong) HorizonalTableViewController *viewPager;
 @property (nonatomic, strong) TitleBarView *titleBar;
@@ -20,3 +20,4 @@
 - (void)scrollToViewAtIndex:(NSUInteger)index;
 
 @end
+

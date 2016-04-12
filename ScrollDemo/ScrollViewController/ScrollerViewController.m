@@ -1,21 +1,20 @@
 //
-//  SwipableViewController.m
-//  iosapp
+//  ScrollerViewController.m
+//  ScrollDemo
 //
-//  Created by chenhaoxiang on 14-10-19.
-//  Copyright (c) 2014年 oschina. All rights reserved.
+//  Created by baixinpan on 16/4/12.
+//  Copyright © 2016年 baixinpan. All rights reserved.
 //
 
-#import "SwipableViewController.h"
+#import "ScrollerViewController.h"
 
-@interface SwipableViewController ()  <UIScrollViewDelegate>
+@interface ScrollerViewController ()<UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSArray *controllers;
 
 @end
 
-@implementation SwipableViewController
-
+@implementation ScrollerViewController
 
 - (instancetype)initWithTitle:(NSString *)title andSubTitles:(NSArray *)subTitles andControllers:(NSArray *)controllers
 {

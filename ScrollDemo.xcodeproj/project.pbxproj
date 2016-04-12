@@ -15,13 +15,13 @@
 		FE74D3351CBBDD2700035EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE74D3331CBBDD2700035EC3 /* LaunchScreen.storyboard */; };
 		FE74D3401CBBDD2700035EC3 /* ScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D33F1CBBDD2700035EC3 /* ScrollDemoTests.m */; };
 		FE74D34B1CBBDD2700035EC3 /* ScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D34A1CBBDD2700035EC3 /* ScrollDemoUITests.m */; };
-		FE74D35C1CBBDD8A00035EC3 /* SwipableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D35B1CBBDD8A00035EC3 /* SwipableViewController.m */; };
-		FE74D35F1CBBDDA100035EC3 /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D35E1CBBDDA100035EC3 /* TitleBarView.m */; };
-		FE74D3621CBBDDB600035EC3 /* HorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D3611CBBDDB600035EC3 /* HorizonalTableViewController.m */; };
 		FE74D3651CBBDF1D00035EC3 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D3641CBBDF1D00035EC3 /* ViewController1.m */; };
 		FE74D3681CBBDF2500035EC3 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D3671CBBDF2500035EC3 /* ViewController2.m */; };
 		FE74D36B1CBBDF2C00035EC3 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D36A1CBBDF2C00035EC3 /* ViewController3.m */; };
 		FE74D36E1CBBDF3400035EC3 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74D36D1CBBDF3400035EC3 /* ViewController4.m */; };
+		FEA7B6BE1CBD314700ED9626 /* ScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA7B6BD1CBD314700ED9626 /* ScrollerViewController.m */; };
+		FEA7B6C31CBD322E00ED9626 /* HorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA7B6C01CBD322E00ED9626 /* HorizonalTableViewController.m */; };
+		FEA7B6C41CBD322E00ED9626 /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA7B6C21CBD322E00ED9626 /* TitleBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +58,6 @@
 		FE74D3461CBBDD2700035EC3 /* ScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE74D34A1CBBDD2700035EC3 /* ScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollDemoUITests.m; sourceTree = "<group>"; };
 		FE74D34C1CBBDD2700035EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE74D35A1CBBDD8A00035EC3 /* SwipableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipableViewController.h; sourceTree = "<group>"; };
-		FE74D35B1CBBDD8A00035EC3 /* SwipableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipableViewController.m; sourceTree = "<group>"; };
-		FE74D35D1CBBDDA100035EC3 /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
-		FE74D35E1CBBDDA100035EC3 /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
-		FE74D3601CBBDDB600035EC3 /* HorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalTableViewController.h; sourceTree = "<group>"; };
-		FE74D3611CBBDDB600035EC3 /* HorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalTableViewController.m; sourceTree = "<group>"; };
 		FE74D3631CBBDF1D00035EC3 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		FE74D3641CBBDF1D00035EC3 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		FE74D3661CBBDF2500035EC3 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -72,6 +66,12 @@
 		FE74D36A1CBBDF2C00035EC3 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		FE74D36C1CBBDF3400035EC3 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
 		FE74D36D1CBBDF3400035EC3 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		FEA7B6BC1CBD314700ED9626 /* ScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollerViewController.h; sourceTree = "<group>"; };
+		FEA7B6BD1CBD314700ED9626 /* ScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollerViewController.m; sourceTree = "<group>"; };
+		FEA7B6BF1CBD322E00ED9626 /* HorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalTableViewController.h; sourceTree = "<group>"; };
+		FEA7B6C01CBD322E00ED9626 /* HorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalTableViewController.m; sourceTree = "<group>"; };
+		FEA7B6C11CBD322E00ED9626 /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		FEA7B6C21CBD322E00ED9626 /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +124,7 @@
 			children = (
 				FE74D3281CBBDD2700035EC3 /* AppDelegate.h */,
 				FE74D3291CBBDD2700035EC3 /* AppDelegate.m */,
+				FEA7B6BB1CBD313700ED9626 /* ScrollViewController */,
 				FE74D32B1CBBDD2700035EC3 /* ViewController.h */,
 				FE74D32C1CBBDD2700035EC3 /* ViewController.m */,
 				FE74D3631CBBDF1D00035EC3 /* ViewController1.h */,
@@ -134,12 +135,6 @@
 				FE74D36A1CBBDF2C00035EC3 /* ViewController3.m */,
 				FE74D36C1CBBDF3400035EC3 /* ViewController4.h */,
 				FE74D36D1CBBDF3400035EC3 /* ViewController4.m */,
-				FE74D35A1CBBDD8A00035EC3 /* SwipableViewController.h */,
-				FE74D35B1CBBDD8A00035EC3 /* SwipableViewController.m */,
-				FE74D3601CBBDDB600035EC3 /* HorizonalTableViewController.h */,
-				FE74D3611CBBDDB600035EC3 /* HorizonalTableViewController.m */,
-				FE74D35D1CBBDDA100035EC3 /* TitleBarView.h */,
-				FE74D35E1CBBDDA100035EC3 /* TitleBarView.m */,
 				FE74D32E1CBBDD2700035EC3 /* Main.storyboard */,
 				FE74D3311CBBDD2700035EC3 /* Assets.xcassets */,
 				FE74D3331CBBDD2700035EC3 /* LaunchScreen.storyboard */,
@@ -173,6 +168,19 @@
 				FE74D34C1CBBDD2700035EC3 /* Info.plist */,
 			);
 			path = ScrollDemoUITests;
+			sourceTree = "<group>";
+		};
+		FEA7B6BB1CBD313700ED9626 /* ScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEA7B6BC1CBD314700ED9626 /* ScrollerViewController.h */,
+				FEA7B6BD1CBD314700ED9626 /* ScrollerViewController.m */,
+				FEA7B6BF1CBD322E00ED9626 /* HorizonalTableViewController.h */,
+				FEA7B6C01CBD322E00ED9626 /* HorizonalTableViewController.m */,
+				FEA7B6C11CBD322E00ED9626 /* TitleBarView.h */,
+				FEA7B6C21CBD322E00ED9626 /* TitleBarView.m */,
+			);
+			path = ScrollViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,11 +315,11 @@
 			files = (
 				FE74D32D1CBBDD2700035EC3 /* ViewController.m in Sources */,
 				FE74D36E1CBBDF3400035EC3 /* ViewController4.m in Sources */,
+				FEA7B6C31CBD322E00ED9626 /* HorizonalTableViewController.m in Sources */,
+				FEA7B6C41CBD322E00ED9626 /* TitleBarView.m in Sources */,
 				FE74D3651CBBDF1D00035EC3 /* ViewController1.m in Sources */,
+				FEA7B6BE1CBD314700ED9626 /* ScrollerViewController.m in Sources */,
 				FE74D36B1CBBDF2C00035EC3 /* ViewController3.m in Sources */,
-				FE74D35C1CBBDD8A00035EC3 /* SwipableViewController.m in Sources */,
-				FE74D3621CBBDDB600035EC3 /* HorizonalTableViewController.m in Sources */,
-				FE74D35F1CBBDDA100035EC3 /* TitleBarView.m in Sources */,
 				FE74D3681CBBDF2500035EC3 /* ViewController2.m in Sources */,
 				FE74D32A1CBBDD2700035EC3 /* AppDelegate.m in Sources */,
 				FE74D3271CBBDD2700035EC3 /* main.m in Sources */,
@@ -540,6 +548,7 @@
 				FE74D3511CBBDD2700035EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE74D3521CBBDD2700035EC3 /* Build configuration list for PBXNativeTarget "ScrollDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +557,7 @@
 				FE74D3541CBBDD2700035EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE74D3551CBBDD2700035EC3 /* Build configuration list for PBXNativeTarget "ScrollDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +566,7 @@
 				FE74D3571CBBDD2700035EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

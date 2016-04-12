@@ -1,9 +1,9 @@
 //
 //  TitleBarView.h
-//  iosapp
+//  ScrollDemo
 //
-//  Created by chenhaoxiang on 14-10-20.
-//  Copyright (c) 2014年 oschina. All rights reserved.
+//  Created by baixinpan on 16/4/12.
+//  Copyright © 2016年 baixinpan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

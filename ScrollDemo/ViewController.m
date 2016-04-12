@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SwipableViewController.h"
+#import "ScrollerViewController.h"
 
 #import "ViewController1.h"
 #import "ViewController2.h"
@@ -22,12 +22,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self enter];
+    [self enterNextPage];
     // Do any ad;ditional setup after loading the view, typically from a nib.
 }
 
-- (void)enter {
-
+- (void)enterNextPage {
     
     ViewController1 *vc1 = [[ViewController1 alloc] init];
     ViewController2 *vc2 = [[ViewController2 alloc] init];
@@ -39,16 +38,9 @@
     vc3.view.backgroundColor  = [UIColor redColor];
     vc4.view.backgroundColor  = [UIColor blueColor];
     
-    SwipableViewController *newsSVC = [[SwipableViewController alloc] initWithTitle:@"测试"
-                                                                       andSubTitles:@[@"资讯", @"热点", @"博客", @"推荐"]
-                                                                     andControllers:@[vc1, vc2, vc3,vc4]
-                                                                        underTabbar:NO];
+    ScrollerViewController *newsSVC = [[ScrollerViewController alloc] initWithTitle:@"测试" andSubTitles:@[@"资讯", @"热点", @"博客", @"推荐"]andControllers:@[vc1, vc2, vc3,vc4] underTabbar:NO];
     [self.navigationController pushViewController:newsSVC animated:YES];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
